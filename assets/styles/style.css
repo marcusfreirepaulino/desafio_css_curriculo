@@ -1,0 +1,129 @@
+/* #168CCD */
+/* #E1E1E1 */
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    overflow-y: scroll;
+    background-color: #EFEFEF;
+
+    font-family: Nunito;
+}
+
+header{
+    display: flex;
+    
+    background-color: #FFFFFF;
+
+    margin: 10vh 15vw;
+    height: 75vh;
+    width: 75vw;
+}
+
+#pfp{
+    height:35vh;
+    margin: 3vh 3vw;
+
+    border: #E1E1E1 solid 3px;
+}
+
+.donwload{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border: #E1E1E1 solid 3px;
+    height: 10vh;
+
+    text-decoration: none;
+    color:#747575;
+    
+    font-family: Roboto;
+    margin: 3vh 3vw;
+}
+
+
+
+
+.text a{
+    color:#168CCD;
+}
+.text a:visited{
+    color:#168CCD
+}
+
+
+.title{
+    font-family: Roboto;
+    margin: 3vh 0vw;
+
+
+}
+
+.title span{
+    color: #168CCD;
+}
+
+.title h2{
+    color:#747575;
+}
+
+.info{
+    margin: 10vh 0 0 0;
+
+    display: flex;
+    gap: 5vw;
+}
+
+.block{
+    line-height: 5vh;
+}
+
+.media{
+    display:flex;
+    justify-content: start;
+    margin-top: 5vh;
+
+    gap: 3vw;
+
+    height: 17vh;
+}
+
+.logos{
+    height: 8vh;
+}
+
+.content{
+    height:100%;
+
+}
+
+.skills{
+    display: flex;
+    justify-content: center;
+    
+    font-family: Roboto;
+    color:#168CCD
+}
+
+.pf{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    background-color: #FFFFFF;
+
+    margin: 10vh 15vw;
+    height: 75vh;
+    width: 75vw;
+}
+
+figcaption{
+    display: flex;
+    justify-content: center;
+}
